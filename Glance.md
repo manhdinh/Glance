@@ -17,4 +17,6 @@ http://docs.openstack.org/developer/glance/_images/architecture.png
 <li>Database Abstraction Layer (DAL) - an application programming interface which unifies the communication between Glance and databases.</li>
 <li>Glance Domain Controller - middleware that implements the main Glance functionalities: authorization, notifications, policies, database connections.</li>
 <li>Glance Store - organizes interactions between Glance and various data stores.
-Registry Layer - optional layer organizing secure communication between the domain and the DAL by using a separate service.</li>
+<li>Registry Layer - optional layer organizing secure communication between the domain and the DAL by using a separate service.</li>
+##1.Glance database public API
+Những tham số tr
