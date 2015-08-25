@@ -10,9 +10,9 @@ Glance được viết với những thiết kế sau :
 <li>Recoverable : Hỏng hóc có thể dễ dàng chuẩn đoán,sửa lỗi và khắc phục.</li>
 <li>Open standard : Thực hiện than chiếu cho community-driven api
 http://docs.openstack.org/developer/glance/_images/architecture.png
-A client - any application that uses Glance server.
-REST API - exposes Glance functionality via REST.
-Database Abstraction Layer (DAL) - an application programming interface which unifies the communication between Glance and databases.
-Glance Domain Controller - middleware that implements the main Glance functionalities: authorization, notifications, policies, database connections.
-Glance Store - organizes interactions between Glance and various data stores.
-Registry Layer - optional layer organizing secure communication between the domain and the DAL by using a separate service.
+<li>A client - any application that uses Glance server.</li>
+<li>REST API - exposes Glance functionality via REST.</li>
+<li>Database Abstraction Layer (DAL) - an application programming interface which unifies the communication between Glance and databases.</li>
+<li>Glance Domain Controller - middleware that implements the main Glance functionalities: authorization, notifications, policies, database connections.</li>
+<li>Glance Store - organizes interactions between Glance and various data stores.
+Registry Layer - optional layer organizing secure communication between the domain and the DAL by using a separate service.</li>
