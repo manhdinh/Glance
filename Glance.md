@@ -9,6 +9,8 @@ Glance được viết với những thiết kế sau :
 <li>Fault tolerant : Quy trình được độc lập để tránh các sự cố.</li>
 <li>Recoverable : Hỏng hóc có thể dễ dàng chuẩn đoán,sửa lỗi và khắc phục.</li>
 <li>Open standard : Thực hiện than chiếu cho community-driven api
+</ul>
+Mô hình kiến trúc của Glance
 http://docs.openstack.org/developer/glance/_images/architecture.png
 <li>A client - any application that uses Glance server.</li>
 <li>REST API - exposes Glance functionality via REST.</li>
