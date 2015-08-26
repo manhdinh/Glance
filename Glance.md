@@ -72,7 +72,7 @@ Các bước hoạt động:
 </li>					
 <li>2	glance image-delete	Xóa image	glance image-delete id<id image>	<li>	
 
-3	glance image-list	In ra danh sách các image	 --name <NAME>	Hiển thị danh sách các image có tên <NAME>	http://docs.openstack.org/cli-reference/content/glanceclient_commands.html
+3	glance image-list	In ra danh sách các image	 --name <NAME>	Hiển thị danh sách các image có tên <NAME>
 
 			 --status <STATUS>	Hiển thị danh sách các image có cùng <STATUS>	
 			 --container-format <CONTAINER_FORMAT>	Hiển thị danh sách các image có cùng <CONTAINER_FORMAT>	
@@ -84,10 +84,8 @@ Các bước hoạt động:
 			 --is-public {True,False}	Hiển thị danh sách các image có cùng --is-public {True,False}	
 			 --owner <TENANT_ID>	Hiển thị danh sách các image cùng thuộc 1 <TENANT_ID>	
 			 --all-tenants	Hiển thị danh sách tất cả các image ko phân biệt tennant	
-4	glance image-show	Mô tả image cụ thể	<IMAGE>	Tên hoặc id của image	http://docs.openstack.org/cli-reference/content/glanceclient_commands.html
-
-5	glance image-update	Update thông tin image	<IMAGE>	Tên hoặc id của image muốn thay đổi	http://docs.openstack.org/cli-reference/content/glanceclient_commands.html
-
+4	glance image-show	Mô tả image cụ thể	<IMAGE>	Tên hoặc id của image	
+5	glance image-update	Update thông tin image	<IMAGE>	Tên hoặc id của image muốn thay đổi	
 			 --name <NAME>D35		
 			 --disk-format <DISK_FORMAT>		
 			 --container-format <CONTAINER_FORMAT>		
@@ -100,12 +98,10 @@ Các bước hoạt động:
 			 --is-protected {True,False}		
 			 --human-readable		
 			 --progress		
-6	glance member-create	Share image cho 1 tenant	<IMAGE>	Tên hoặc id của image	http://docs.openstack.org/cli-reference/content/glanceclient_commands.html
-
+6	glance member-create	Share image cho 1 tenant	<IMAGE>	Tên hoặc id của image	
 			<TENANT_ID>	Id của Tennant add làm member	
 			 --can-share	Cho phép Tenant share image	
-7	glance member-delete <IMAGE> <TENANT_ID>	Remove image được share cho 1 tennant			http://docs.openstack.org/cli-reference/content/glanceclient_commands.html
-
+7	glance member-delete <IMAGE> <TENANT_ID>	Remove image được share cho 1 tennant			
 8	glance member-list [--image-id <IMAGE_ID>] [--tenant-id <TENANT_ID>]	Mô tả danh sách các tennant được share image	 --tenant-id <TENANT_ID>	Lọc kết quả thei Tennant id	http://docs.openstack.org/cli-reference/content/glanceclient_commands.html
 
 			 --image-id <IMAGE_ID>	Lọc kết quả theo image id	
