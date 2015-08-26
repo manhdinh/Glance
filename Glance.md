@@ -41,5 +41,9 @@ Glance-stores: Thành phần lưu trữ image: có thể sử dụng file system
 <ul>
 http://docs.openstack.org/developer/glance/_images/architecture.png
 </ul>
+Các bước hoạt động:
+<ul>
+<li>1.Khi có client muốn làm việc với Glance, keystone sẽ xác thực người dùng đó là ai ( AuthN ), khi xác thực đúng thì Client sẽ thực hiện 1 call API thông qua REST API tới Glance Domain Controller ( DGC ) .</li>
+<li>2.GDC thực hiện xác nhận quyền của Client với Keystone, sau đó làm việc với Glance DB, các việc này thông qua 3 lớp Auth  Notifier Policy Quota Location DB, Registry Layer và DAL để lấy các metadata về file image cần làm việc.</li>
+<li>3.Sau khi xác thực và lấy được thông tin về image cần dùng, Auth  Notifier Policy Quota Location DB sẽ chọc xuống Glance Store, sau khi xác thực người dùng và quyền, Glance Store sẽ trả về file image cần thiết.
 
-abc
