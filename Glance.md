@@ -29,3 +29,4 @@ Glance-API : chiu trách nhiệm nhận các API calls cho việc truy xuất, l
 <li> Delete image: DELETE/image/<id>: xóa image cụ thể bởi <id> </li>
 <li> List image: GET/image: trả về id, name, disk_format, container_format …..</li>
 <li> Image details: HEAD/image/<id>: trả về toàn bộ metadata của image xác định bởi <id></li>
+</ul>
