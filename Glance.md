@@ -102,8 +102,8 @@ Các bước hoạt động:
 			<TENANT_ID>	Id của Tennant add làm member	
 			 --can-share	Cho phép Tenant share image	
 <li>7.	glance member-delete <IMAGE> <TENANT_ID>	: Remove image được share cho 1 tennant			
-<li>8.	glance member-list [--image-id <IMAGE_ID>] [--tenant-id <TENANT_ID>] : Mô tả danh sách các tennant được share image	 --tenant-id <TENANT_ID>	Lọc kết quả thei Tennant id	http://docs.openstack.org/cli-reference/content/glanceclient_commands.html
-
+<li>8.	glance member-list [--image-id <IMAGE_ID>] [--tenant-id <TENANT_ID>] : Mô tả danh sách các tennant được share image	
+			<li>--tenant-id <TENANT_ID>	Lọc kết quả thei Tennant id	</li>
 			<li> --image-id <IMAGE_ID>	Lọc kết quả theo image id	</li>
 
 
