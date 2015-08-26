@@ -15,9 +15,14 @@ Glance được viết với những thiết kế sau :
 <li>Open standard : Thực hiện than chiếu cho community-driven api.</li>
 </ul>
 Mô hình kiến trúc của Glance
+<ul>
 http://docs.openstack.org/developer/glance/_images/architecture.png
+</ul>
+<ul>
 http://ilearnstack.files.wordpress.com/2013/04/glance.png?w=300&h=300
-<ul> Glance-API : chiu trách nhiệm nhận các API calls cho việc truy xuất, lưu trữ image...
+</ul>
+<ul> 
+Glance-API : chiu trách nhiệm nhận các API calls cho việc truy xuất, lưu trữ image...</li>
 <li> Store image: POST/image : lưu trữ image và sau đó trả về metadata của image</li>
 <li> Dowload image: GET/image/<id>: lấy image được chỉ thị bởi <id> </li>
 <li> Update image: PUT/image/<id>: cập nhật metadata hoặc dữ liệu xác định cụ thể bởi <image> </li>
