@@ -70,7 +70,7 @@ Các bước hoạt động:
 			<li> --copy-from <IMAGE_URL>	Link download image từ mạng	
 </ul>
 </li>					
-2	glance image-delete	Xóa image	glance image-delete id<id image>		http://docs.openstack.org/cli-reference/content/glanceclient_commands.html
+<li>2	glance image-delete	Xóa image	glance image-delete id<id image>	<li>	
 
 3	glance image-list	In ra danh sách các image	 --name <NAME>	Hiển thị danh sách các image có tên <NAME>	http://docs.openstack.org/cli-reference/content/glanceclient_commands.html
 
