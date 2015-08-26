@@ -15,9 +15,7 @@ Glance được viết với những thiết kế sau :
 <li>Open standard : Thực hiện than chiếu cho community-driven api.</li>
 </ul>
 Mô hình kiến trúc của Glance
-<ul>
-http://docs.openstack.org/developer/glance/_images/architecture.png
-</ul>
+
 <ul>
 http://ilearnstack.files.wordpress.com/2013/04/glance.png?w=300&h=300
 </ul>
@@ -39,4 +37,7 @@ Glance-database: Database lưu trữ về các image metadata
 </ul>
 Glance-stores: Thành phần lưu trữ image: có thể sử dụng file system, S3, Swift...
 <ul>
+</ul>
+<ul>
+http://docs.openstack.org/developer/glance/_images/architecture.png
 </ul>
