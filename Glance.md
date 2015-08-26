@@ -21,8 +21,9 @@ http://docs.openstack.org/developer/glance/_images/architecture.png
 <ul>
 http://ilearnstack.files.wordpress.com/2013/04/glance.png?w=300&h=300
 </ul>
+
+Glance-API : chiu trách nhiệm nhận các API calls cho việc truy xuất, lưu trữ image...
 <ul> 
-Glance-API : chiu trách nhiệm nhận các API calls cho việc truy xuất, lưu trữ image...</li>
 <li> Store image: POST/image : lưu trữ image và sau đó trả về metadata của image</li>
 <li> Dowload image: GET/image/<id>: lấy image được chỉ thị bởi <id> </li>
 <li> Update image: PUT/image/<id>: cập nhật metadata hoặc dữ liệu xác định cụ thể bởi <image> </li>
