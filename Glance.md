@@ -34,7 +34,5 @@ Glance-API : chiu trách nhiệm nhận các API calls cho việc truy xuất, l
 Glance-registry : Lưu trữ processes và lấy về các metadata về image( size, type...)
 <ul>
 Glance-database: Database lưu trữ về các image metadata
-</ul>
 <ul>
 Glance-stores: Thành phần lưu trữ image: có thể sử dụng file system, S3, Swift...
-</ul>
