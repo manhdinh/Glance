@@ -1,0 +1,3 @@
+
+#I.Ki?n trúc t?ng quan v? Glance
+http://docs.openstack.org/developer/glance/_images/architecture.png

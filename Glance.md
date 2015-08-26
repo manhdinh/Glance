@@ -41,3 +41,5 @@ Glance-stores: Thành phần lưu trữ image: có thể sử dụng file system
 <ul>
 http://docs.openstack.org/developer/glance/_images/architecture.png
 </ul>
+
+abc
