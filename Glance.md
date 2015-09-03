@@ -18,7 +18,7 @@ Mô hình kiến trúc của Glance
 
 <ul>
 http://ilearnstack.files.wordpress.com/2013/04/glance.png?w=300&h=300
-</ul>
+</ul>https://ilearnstack.files.wordpress.com/2013/04/glance.png?w=300&h=300
 
 Glance-API : chiu trách nhiệm nhận các API calls cho việc truy xuất, lưu trữ image...
 <ul> 
@@ -39,7 +39,7 @@ Glance-stores: Thành phần lưu trữ image: có thể sử dụng file system
 <ul>
 </ul>
 <ul>
-http://docs.openstack.org/developer/glance/_images/architecture.png
+<img src="http://docs.openstack.org/developer/glance/_images/architecture.png" >
 </ul>
 Các bước hoạt động:
 <ul>
