@@ -17,8 +17,8 @@ Glance được viết với những thiết kế sau :
 Mô hình kiến trúc của Glance
 
 <ul>
-http://ilearnstack.files.wordpress.com/2013/04/glance.png?w=300&h=300
-</ul>https://ilearnstack.files.wordpress.com/2013/04/glance.png?w=300&h=300
+<img src="http://ilearnstack.files.wordpress.com/2013/04/glance.png?w=300&h=300" >
+</ul>
 
 Glance-API : chiu trách nhiệm nhận các API calls cho việc truy xuất, lưu trữ image...
 <ul> 
