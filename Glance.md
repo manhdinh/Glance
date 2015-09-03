@@ -1,4 +1,4 @@
-###I.Giới thiệu về Glance.
+###I.Vai trò của Glance trong OpenStack.
   Glance cung cấp lưu trữ và truy vấn các virtual disk image. Glance được thiết kế để là một dịch vụ độc lập sử dụng cho việc   tổ chức lưu trữ image, tuy nhiên khi kết hợp với Nova và Swift, nó cung cấp giải pháp end-to-end cho việc quản lí các disk   image cho hạ tầng cloud.
 
 ###II.Kiến trúc tổng quan về Glance
