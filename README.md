@@ -13,7 +13,7 @@ Glance trong OpenStack là một project có nhiệm vụ chính là lưu trữ 
   + 1.Khi có client muốn làm việc với Glance, keystone sẽ xác thực người dùng đó là ai ( AuthN ), khi xác thực đúng thì Client sẽ thực hiện 1 call API thông qua REST API tới Glance Domain Controller ( DGC ) .
   + 2.GDC thực hiện xác nhận quyền của Client với Keystone, sau đó làm việc với Glance DB, các việc này thông qua 3 lớp Auth Notifier Policy Quota Location DB, Registry Layer và DAL để lấy các metadata về file image cần làm việc.
   + 3.Sau khi xác thực và lấy được thông tin về image cần dùng, Auth Notifier Policy Quota Location DB sẽ chọc xuống Glance Store, sau khi xác thực người dùng và quyền, Glance Store sẽ trả về file image cần thiết.
-- Khi làm việc với Glance, cần lưu ý và hiểu rõ về 3 phần sau : 
+- 3.Khi làm việc với Glance, cần lưu ý và hiểu rõ về 3 phần sau : 
 <ul>
   + [Glance Format](https://github.com/manhdinh/Glance/blob/master/Glance%20Disk%20Format.md) : Khi thêm 1 image vào Glance cần phải định nghĩa disk_format và container format cho Image Disk Virtual Machine
   + [Glance Image Cache](https://github.com/manhdinh/Glance/blob/master/Glance%20Image%20Cache.md) : Giúp cho việc lấy file image boot lên máy ảo trở nên nhanh chóng hơn nhờ việc lấy thẳng image trên glance mà ko cần xuống backend.
