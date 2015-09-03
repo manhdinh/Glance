@@ -1,5 +1,5 @@
 ###I.Giới thiệu về Glance.
-Glance cung cấp lưu trữ và truy vấn các virtual disk image. Glance được thiết kế để là một dịch vụ độc lập sử dụng cho việc tổ chức lưu trữ image, tuy nhiên khi kết hợp với Nova và Swift, nó cung cấp giải pháp end-to-end cho việc quản lí các disk image cho hạ tầng cloud.
+  Glance cung cấp lưu trữ và truy vấn các virtual disk image. Glance được thiết kế để là một dịch vụ độc lập sử dụng cho việc   tổ chức lưu trữ image, tuy nhiên khi kết hợp với Nova và Swift, nó cung cấp giải pháp end-to-end cho việc quản lí các disk   image cho hạ tầng cloud.
 
 ###II.Kiến trúc tổng quan về Glance
 * Glance Project cung cấp dịch vụ nơi mà người dung có thẻ upload và tìm ra những data hiện có mà có thể được sử dụng với những dịch vụ khác.( Image và metadata )
