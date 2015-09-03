@@ -19,7 +19,7 @@ Mô hình kiến trúc của Glance
 <img src="http://ilearnstack.files.wordpress.com/2013/04/glance.png?w=300&h=300" >
 </ul>
 
-Glance-API : chiu trách nhiệm nhận các API calls cho việc truy xuất, lưu trữ image...
+* Glance-API : chiu trách nhiệm nhận các API calls cho việc truy xuất, lưu trữ image...
 <ul> 
 <li> Store image: POST/image : lưu trữ image và sau đó trả về metadata của image</li>
 <li> Dowload image: GET/image/<id>: lấy image được chỉ thị bởi <id> </li>
@@ -28,19 +28,19 @@ Glance-API : chiu trách nhiệm nhận các API calls cho việc truy xuất, l
 <li> List image: GET/image: trả về id, name, disk_format, container_format …..</li>
 <li> Image details: HEAD/image/<id>: trả về toàn bộ metadata của image xác định bởi <id></li>
 </ul>
-Glance-registry : Lưu trữ processes và lấy về các metadata về image( size, type...)
+* Glance-registry : Lưu trữ processes và lấy về các metadata về image( size, type...)
 <ul>
 </ul>
-Glance-database: Database lưu trữ về các image metadata
+* Glance-database: Database lưu trữ về các image metadata
 <ul>
 </ul>
-Glance-stores: Thành phần lưu trữ image: có thể sử dụng file system, S3, Swift...
+* Glance-stores: Thành phần lưu trữ image: có thể sử dụng file system, S3, Swift...
 <ul>
 </ul>
 <ul>
 <img src="http://docs.openstack.org/developer/glance/_images/architecture.png" >
 </ul>
-Các bước hoạt động:
+* Các bước hoạt động:
 <ul>
 <li>1.Khi có client muốn làm việc với Glance, keystone sẽ xác thực người dùng đó là ai ( AuthN ), khi xác thực đúng thì Client sẽ thực hiện 1 call API thông qua REST API tới Glance Domain Controller ( DGC ) .</li>
 <li>2.GDC thực hiện xác nhận quyền của Client với Keystone, sau đó làm việc với Glance DB, các việc này thông qua 3 lớp Auth  Notifier Policy Quota Location DB, Registry Layer và DAL để lấy các metadata về file image cần làm việc.</li>
