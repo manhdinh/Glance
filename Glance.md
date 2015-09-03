@@ -69,7 +69,7 @@ Mô hình kiến trúc của Glance
 			<li> --copy-from <IMAGE_URL>	Link download image từ mạng	
 </ul>
 </li>					
-<li>2.	glance image-delete : Xóa image	glance image-delete id<id image>	<li>	
+<li>2.	glance image-delete : Xóa image	glance image-delete id<id image>	</li>	
 
 <li>3.	glance image-list : In ra danh sách các image	 --name <NAME>	Hiển thị danh sách các image có tên <NAME>
 
