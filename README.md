@@ -1,6 +1,5 @@
 # Glance trong OpenStack
-  + Glance trong OpenStack là một project có nhiệm vụ chính là lưu trữ các file image để tạo instance.Bài viết trình bày
- [Tổng quan về kiến trúc và cách hoạt động của Glance](https://github.com/manhdinh/Glance/blob/master/Glance.md).
+  + Glance trong OpenStack là một project có nhiệm vụ chính là lưu trữ các file image để tạo instance.Bài viết trình bày[Tổng quan về kiến trúc và cách hoạt động của Glance](https://github.com/manhdinh/Glance/blob/master/Glance.md).
  + Khi làm việc với Glance, cần lưu ý và hiểu rõ về 3 phần sau : 
 <ul>
   - [Glance Format](https://github.com/manhdinh/Glance/blob/master/Glance%20Disk%20Format.md) : Khi thêm 1 image vào Glance cần phải định nghĩa disk_format và container format cho Image Disk Virtual Machine
